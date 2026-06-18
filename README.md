@@ -154,7 +154,7 @@ PPI-Prediction/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/SameerChapagain/Cross-Transformer-Model-for-Protein-Protein-Interaction
 cd your-repository-name
 ```
 
