@@ -132,17 +132,12 @@ PPI-Prediction/
 │
 ├── scripts/
 │   ├── dataset_creation.py
-│   ├── generate_esm_embeddings.py
+│   ├── embeddings_generation.py
 │   ├── split_data.py
-│   ├── train.py
+│   ├── training_only.py
 │   ├── test.py
-│   └── plot_results.py
+│   └── plot_test.py
 │
-├── results/
-│   ├── metrics/
-│   └── plots/
-│
-├── checkpoints/
 │
 └── README.md
 ```
@@ -183,7 +178,7 @@ python scripts/dataset_creation.py
 ### 2. Generate ESM-2 Embeddings
 
 ```bash
-python scripts/generate_esm_embeddings.py
+python scripts/embeddings_generation.py
 ```
 
 ### 3. Split Dataset
@@ -195,7 +190,7 @@ python scripts/split_data.py
 ### 4. Train Model
 
 ```bash
-python scripts/train.py
+python scripts/training_only.py
 ```
 
 ### 5. Test Model
@@ -207,7 +202,7 @@ python scripts/test.py
 ### 6. Plot Results
 
 ```bash
-python scripts/plot_results.py
+python scripts/plot_test.py
 ```
 
 ---
